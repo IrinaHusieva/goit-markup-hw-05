@@ -111,7 +111,7 @@ section {
 .header-link.current {
   color: var(--active-txt-cl);
 }
-.current::after {
+.header-link.current::after {
   content: '';
   position: absolute;
   display: block;
