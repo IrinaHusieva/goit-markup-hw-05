@@ -122,6 +122,7 @@ section {
   background-color: var(--hover-button-cl);
   border-radius: 2px;
   bottom: 0;
+  left: 0;
 }
 .header-container {
   display: flex;
@@ -134,7 +135,7 @@ section {
 .address,
 .header-logo {
   padding-top: 24px;
-  padding-bottom: 30px;
+  padding-bottom: 31px;
 }
 .header-list {
   display: flex;
@@ -524,10 +525,6 @@ ul {
 .link-animation:focus .project-animation {
   transform: translate(0, 0);
 }
-/* opacity: 1;
-  animation-name: move-top;
-  animation-duration: 1000ms;
-  animation-timing-function: linear;
 
 /* Modal Window */
 .backdrop {
